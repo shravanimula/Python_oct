@@ -1,0 +1,8 @@
+tuple1=(33,4,22,55,11,6,77)
+print("before sort the tuple is:")
+print(tuple1)
+list1=list(tuple1)
+list1.sort()
+tuple1=tuple(list1)
+print("after sort the tuple is:")
+print(tuple1)
